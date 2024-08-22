@@ -123,6 +123,20 @@ CCTB - College
         <!-- /LOGOUT -->
     </div>
 
+
+    <script>
+        // Function to prompt the user and display the result
+        document.getElementById('dialog-box').addEventListener('click', function () {
+            // Prompt the user for their favorite programming language
+            var language = prompt("What is your favorite programming language?");
+    
+            // Display the result in the h1 tag
+            if (language) {
+                document.getElementById('programming-language').textContent = language;
+            }
+        });
+    </script>
+
 </body>
 
 </html>
